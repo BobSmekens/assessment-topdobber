@@ -25,6 +25,14 @@ body {
 .quiz-container p, .quiz-container h1 {
   text-align: center;
   font-weight: bold;
+  width: 80%;
+  margin: auto;
+}
+
+.quiz-container p {
+  border-bottom: 1px solid black;
+  padding: 30px;
+  margin: 0 auto 30px auto;
 }
 
 .btn-container {
@@ -99,6 +107,11 @@ button {
 
 .results-container .review-container {
   text-align: center;
+}
+
+.results-container .review-container input {
+  -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75) inset;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75) inset;
 }
 
 .results-container .review-input {

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,7 @@
 
 
 <?php
-session_start();
+
 $answer1 = $_POST['answer0'];
 $answer2 = $_POST['answer1'];
 $answer3 = $_POST['answer2'];

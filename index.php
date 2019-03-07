@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php 
 session_start(); 
 $message1 = "One correct answer, much to learn young padawan!";
@@ -21,6 +20,8 @@ if (isset($_SESSION['correct'])) {
     $session_done = false;
 }
 ?>
+<!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="utf-8">
